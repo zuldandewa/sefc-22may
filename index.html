@@ -5,10 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Zuldan Dewa</title>
+
+    <!-- Ini CSS internal -->
+     <style>
+        article{
+            background-color: bisque;
+        }
+     </style>
+
+     <!-- Ini CSS eksternal (perlu panggil file css yang terpisah dari file html) -->
+      <link rel="stylesheet" href="css\style.css">
 </head>
 
 <body>
+    <!-- Ini CSS inline -->
+    <header onclick="showAllert();" style="background-color: blueviolet; display: flex;justify-content: space-between;">
+        <h1>Ini Judulnyaaa</h1>
+        <h1>Ini Juga Judulnyaaa</h1>
+    </header>
     
+    <article>
+        <p>Ini Isinyaaaaa</p>
+    </article>
+    
+    <footer>
+        <span>Ini Penutupnyaa</span>
+    </footer>
+
+    <!-- Internal JavaScript -->
+     <script>
+        // Ini function pada JavaScript
+        function showAllert(){
+            // code untuk menampilkan pemberitahuan
+            alert("Haloooo namaku siapa?");
+        }
+     </script>
 </body>
 
 </html>
